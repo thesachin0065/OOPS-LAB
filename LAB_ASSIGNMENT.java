@@ -447,17 +447,17 @@
 // }
 // }
 
-import java.util.Scanner;
 
-public class assignment {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        try {
-            int num = Integer.parseInt(sc.nextLine());
-            System.out.println("You entered: " + num);
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid input! Please enter a valid number.");
-        }
-    }
-}
+// import java.util.Scanner;
+// public class assignment {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter a number: ");
+//         try {
+//             int num = Integer.parseInt(sc.nextLine());
+//             System.out.println("You entered: " + num);
+//         } catch (NumberFormatException e) {
+//             System.out.println("Invalid input! Please enter a valid number.");
+//         }
+//     }
+// }
